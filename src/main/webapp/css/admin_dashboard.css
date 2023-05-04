@@ -1,0 +1,175 @@
+body{
+	
+	padding:0;
+	margin:0;
+	width:100vw;
+	overflow-x:hidden;
+}
+
+html{
+	padding:0;
+	margin:0;
+	overflow-x:hidden;
+}
+
+.topnav{
+	padding-left:30px;
+	padding-right:20px;
+	height:60px;
+	margin-top:10px;
+	border-radius:10px;
+}
+
+
+
+.admin-image{
+	height:50px;
+	width:50px;
+	border-radius:100%;
+	background-color:white;
+}
+
+.active{
+	background-color:#0095FF !important;
+	border-radius:7px;
+}
+
+.profile{
+	height:50px !important;
+	width:50px !important;
+	border-radius:100%;
+	background-color:#0095FF !important;
+}
+.graph{
+	width:700px;
+	height:370px;
+	background-color:#232323;
+}
+
+
+.pageContent{
+    margin-left: 250px;
+    padding: 20px;
+    padding-right: 30px !important;
+}
+
+
+.dash_items{
+    border: 1px solid #337AB7;
+    border-radius: 7px;
+}
+.products{
+    background-color: #0095FF;
+    height: 80px;
+    border-radius: 7px;
+}
+.customers{
+    background-color: #5CD85C;
+    height: 80px;
+    border-radius: 7px;
+}
+.customers_item{
+    border: 1px solid #5CD85C;
+    border-radius: 7px;
+}
+.products_cat{
+    background-color:#f0ad4e ;
+    border-radius: 7px;
+     height: 80px;
+}
+.product_cat_item{
+    border: 1px solid #f0ad4e;
+    border-radius: 7px;
+} 
+.orders{
+    background-color: #D9534F;
+    border-radius: 7px;
+}
+.orders_items{
+    border: 1px solid #D9534F;
+    border-radius: 7px;
+}
+.earnings{
+    background-color: #dff0d8;
+}
+.earnings_items{
+    border: 1px solid #dff0d8;
+    border-radius: 7px;
+}
+.pending_orders{
+    background-color: #FCF8E3;
+    border-radius: 7px;
+}
+.pending_orders_item{
+    border: 1px solid #FCF8E3;
+    border-radius: 7px;
+}
+.completed_orders{
+    background-color: #d9edf7;
+    border-radius: 7px;
+}
+.completed_orders_item{
+    border: 1px solid #d9edf7;
+    border-radius: 7px;
+}
+.total_coupons{
+    background-color:#f2dede ;
+    border-radius: 7px;
+}
+.total_coupons_items{
+    border: 1px solid #f2dede;
+    border-radius: 7px;
+}
+
+
+.p{
+    color: #0095FF;
+}
+.p1{
+    color: #5CD85C !important;
+}
+.p2{
+    color: #f0ad4e;
+}
+.p3{
+    color: #D9534F;
+}
+.arrow{
+    float: right;
+}
+.white{
+    color: white;
+}
+.green{
+    color: #3C763D;
+}
+.brown{
+    color: #8A6D3B;
+}
+.blue{
+    color: #31708f;
+}
+.red{
+    color: #a94442;
+}
+
+
+@media screen and (max-width:600px) {
+    .admin{
+        margin-top: -40px;
+    }
+    .side_nav{
+    	display:none !important;
+    }
+    .pageContent{
+    	margin-left:10px !important;
+    }
+    .canvas{
+	max-height:1000px !important;
+	max-width:800px !important;
+	margin-top:100px !important;
+}
+    
+}
+	
+
